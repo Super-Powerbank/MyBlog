@@ -1,0 +1,1077 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0f089d4d-89bf-4a38-8c63-f33f1479b0d2" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/$TestDemo__2_.ic" NAME="TestDemo (2) Coverage Results" MODIFIED="1589669169242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Gomoku.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ConsumerDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java多线程/src/生产者消费者模型2/ConsumerDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProducerDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java多线程/src/生产者消费者模型2/ProducerDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="3" selection-end-line="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java多线程/src/生产者消费者模型2/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Java网络/src/BIO_多线程/MutilThreadServe.java" />
+        <option value="$PROJECT_DIR$/Java网络/src/BIO_多线程/Client.java" />
+        <option value="$PROJECT_DIR$/Java网络/src/NIO/Server.java" />
+        <option value="$PROJECT_DIR$/Java网络/src/NIO/Client.java" />
+        <option value="$PROJECT_DIR$/Java网络/src/NIO_多线程/MutilThread.java" />
+        <option value="$PROJECT_DIR$/Java网络/src/NIO_多线程/MutilThreadServer.java" />
+        <option value="$PROJECT_DIR$/Java网络/src/NIO_多线程/SubThread.java" />
+        <option value="$PROJECT_DIR$/Java网络/src/NIO_多线程/Client.java" />
+        <option value="F:/QQ下载/TestDemo1 (1).java" />
+        <option value="$PROJECT_DIR$/src/周三Java课作业/编译原理/firstAndFollow.java" />
+        <option value="$PROJECT_DIR$/File/src/TestDemo1.java" />
+        <option value="F:/QQ下载/TestDemo4 (2).java" />
+        <option value="$PROJECT_DIR$/File/src/TestDemo3.java" />
+        <option value="$PROJECT_DIR$/File/src/TestDemo4.java" />
+        <option value="$PROJECT_DIR$/src/周三Java课作业/实验七/CopyFile.java" />
+        <option value="$PROJECT_DIR$/src/周三Java课作业/实验七/FlieList2.java" />
+        <option value="$PROJECT_DIR$/编程题/src/回文数.java" />
+        <option value="$PROJECT_DIR$/编程题/src/几个a相加.java" />
+        <option value="$PROJECT_DIR$/编程题/src/A加B.java" />
+        <option value="$PROJECT_DIR$/编程题/src/猴子吃桃.java" />
+        <option value="$PROJECT_DIR$/编程题/src/二维数组对角线和.java" />
+        <option value="$PROJECT_DIR$/编程题/src/矩阵行列互换.java" />
+        <option value="$PROJECT_DIR$/编程题/src/斐波那契数列.java" />
+        <option value="$PROJECT_DIR$/编程题/src/杨辉三角.java" />
+        <option value="$PROJECT_DIR$/编程题/src/最长公共子串.java" />
+        <option value="$PROJECT_DIR$/编程题/src/寻找第k大.java" />
+        <option value="$PROJECT_DIR$/编程题/src/水仙花数.java" />
+        <option value="$PROJECT_DIR$/编程题/src/闰年.java" />
+        <option value="$PROJECT_DIR$/src/JavaSE入门/TestDemo0.java" />
+        <option value="$PROJECT_DIR$/编程题/src/最小的k个数.java" />
+        <option value="$PROJECT_DIR$/编程题/src/数组二分查找.java" />
+        <option value="$PROJECT_DIR$/src/JavaSE入门/TestDemo7.java" />
+        <option value="$PROJECT_DIR$/编程题/src/二进制中1的个数.java" />
+        <option value="$PROJECT_DIR$/编程题/src/找到字符串的最长无重复子串.java" />
+        <option value="$PROJECT_DIR$/编程题/src/排号报数.java" />
+        <option value="$PROJECT_DIR$/src/周三Java课作业/实验8.java" />
+        <option value="$PROJECT_DIR$/Java多线程/src/Ticket/Ticket.java" />
+        <option value="$PROJECT_DIR$/Java多线程/src/TestDemo.java" />
+        <option value="$PROJECT_DIR$/Java多线程/src/锁/TestDemo.java" />
+        <option value="$PROJECT_DIR$/Java多线程/src/锁/TestDemo1.java" />
+        <option value="F:/QQ下载/TestDemo2(1).java" />
+        <option value="$PROJECT_DIR$/Java多线程/src/Ticket/TestDemo2.java" />
+        <option value="$PROJECT_DIR$/Java多线程/src/锁/TestDemo2.java" />
+        <option value="$PROJECT_DIR$/Java多线程/src/ABC100/DIYObject.java" />
+        <option value="$PROJECT_DIR$/Java多线程/src/ABC100/ABCThread.java" />
+        <option value="$PROJECT_DIR$/Java多线程/src/锁/Singleton.java" />
+        <option value="$PROJECT_DIR$/Java多线程/src/锁/FairTest.java" />
+        <option value="$PROJECT_DIR$/Java多线程/src/生产者消费者模型2/ProducerDemo.java" />
+        <option value="$PROJECT_DIR$/Java多线程/src/生产者消费者模型2/ConsumerDemo.java" />
+        <option value="$PROJECT_DIR$/Java多线程/src/锁/TryLockTest.java" />
+        <option value="$PROJECT_DIR$/Java多线程/src/生产者消费者模型2/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="124" />
+    <option name="y" value="39" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="作业" type="b2602c69:ProjectViewProjectNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="作业" type="b2602c69:ProjectViewProjectNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="Java多线程" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="作业" type="b2602c69:ProjectViewProjectNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="Java多线程" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="作业" type="b2602c69:ProjectViewProjectNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="Java多线程" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="生产者消费者模型2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="作业" type="b2602c69:ProjectViewProjectNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="编程题" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="作业" type="b2602c69:ProjectViewProjectNode" />
+              <item name="作业" type="462c0819:PsiDirectoryNode" />
+              <item name="编程题" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="作业" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="serch&#9;PSI&#9;JAVA://java.nio.channels.ServerSocketChannel" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="E:/JavaMaven" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TryLockTest">
+    <configuration name="数组二分查找" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="数组二分查找" />
+      <module name="编程题" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ABCThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ABC100.ABCThread" />
+      <module name="Java多线程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ABC100.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="FairTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="锁.FairTest" />
+      <module name="Java多线程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="锁.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="生产者消费者模型2.Main" />
+      <module name="Java多线程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="生产者消费者模型2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestDemo2 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="锁.TestDemo2" />
+      <module name="Java多线程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="锁.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestDemo2" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tulun.src2.TestDemo2" />
+      <module name="作业" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tulun.src2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TryLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="锁.TryLockTest" />
+      <module name="Java多线程" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="锁.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="二进制一的个数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="二进制一的个数" />
+      <module name="上机" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="a" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tulun.src2.a" />
+      <module name="作业" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tulun.src2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.a" />
+      <item itemvalue="Application.TestDemo2" />
+      <item itemvalue="Application.TestDemo2 (2)" />
+      <item itemvalue="Application.TryLockTest" />
+      <item itemvalue="Application.ABCThread" />
+      <item itemvalue="Application.FairTest" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TryLockTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FairTest" />
+        <item itemvalue="Application.ABCThread" />
+        <item itemvalue="Application.TestDemo2 (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f089d4d-89bf-4a38-8c63-f33f1479b0d2" name="Default" comment="" />
+      <created>1583729434790</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583729434790</updated>
+      <workItem from="1583729441002" duration="2172000" />
+      <workItem from="1583731656981" duration="8929000" />
+      <workItem from="1583740861217" duration="531000" />
+      <workItem from="1583841149484" duration="337000" />
+      <workItem from="1583928210991" duration="15043000" />
+      <workItem from="1583943410766" duration="1068000" />
+      <workItem from="1584100326075" duration="1886000" />
+      <workItem from="1584188118870" duration="11504000" />
+      <workItem from="1584707291689" duration="6466000" />
+      <workItem from="1584819935591" duration="150000" />
+      <workItem from="1584877564034" duration="1089000" />
+      <workItem from="1584946266218" duration="3776000" />
+      <workItem from="1584950077461" duration="14851000" />
+      <workItem from="1584976909262" duration="9122000" />
+      <workItem from="1584986424401" duration="78000" />
+      <workItem from="1584986688299" duration="17000" />
+      <workItem from="1585399420061" duration="308000" />
+      <workItem from="1585402128958" duration="6160000" />
+      <workItem from="1585501580614" duration="3324000" />
+      <workItem from="1585504981078" duration="9000" />
+      <workItem from="1585505100849" duration="59000" />
+      <workItem from="1585505196638" duration="172000" />
+      <workItem from="1585505407611" duration="48000" />
+      <workItem from="1585505478594" duration="28000" />
+      <workItem from="1585505530006" duration="14000" />
+      <workItem from="1585914813471" duration="7958000" />
+      <workItem from="1586541140645" duration="2701000" />
+      <workItem from="1586700391609" duration="1932000" />
+      <workItem from="1586997080193" duration="4248000" />
+      <workItem from="1587023373693" duration="9278000" />
+      <workItem from="1587035504083" duration="5517000" />
+      <workItem from="1587041425297" duration="34000" />
+      <workItem from="1587553716304" duration="6257000" />
+      <workItem from="1587900047506" duration="1088000" />
+      <workItem from="1588158909813" duration="4977000" />
+      <workItem from="1588765921858" duration="1573000" />
+      <workItem from="1588768481190" duration="2692000" />
+      <workItem from="1588956252024" duration="3465000" />
+      <workItem from="1589199489386" duration="762000" />
+      <workItem from="1589536700367" duration="937000" />
+      <workItem from="1589654532854" duration="11625000" />
+      <workItem from="1589668824580" duration="10365000" />
+      <workItem from="1590042179925" duration="5106000" />
+      <workItem from="1590048131281" duration="4097000" />
+      <workItem from="1590052854394" duration="8000" />
+      <workItem from="1590192517954" duration="75000" />
+      <workItem from="1590491568463" duration="3194000" />
+      <workItem from="1590818698957" duration="6640000" />
+      <workItem from="1590922562447" duration="3560000" />
+      <workItem from="1591558507649" duration="1200000" />
+      <workItem from="1591622138280" duration="20205000" />
+      <workItem from="1591643236309" duration="103000" />
+      <workItem from="1591643363690" duration="7233000" />
+      <workItem from="1591650916803" duration="17000" />
+      <workItem from="1591696391283" duration="758000" />
+      <workItem from="1591991180431" duration="7872000" />
+      <workItem from="1592478127271" duration="7832000" />
+      <workItem from="1592901720758" duration="896000" />
+      <workItem from="1593226359588" duration="3348000" />
+      <workItem from="1593574126916" duration="15591000" />
+      <workItem from="1593590462102" duration="17000" />
+      <workItem from="1593665945511" duration="708000" />
+      <workItem from="1593782728255" duration="2575000" />
+      <workItem from="1593785448708" duration="1610000" />
+      <workItem from="1593944763725" duration="660000" />
+      <workItem from="1594091671234" duration="442000" />
+      <workItem from="1594094716918" duration="123000" />
+      <workItem from="1594094866901" duration="871000" />
+      <workItem from="1598160568528" duration="228000" />
+      <workItem from="1598164776211" duration="5485000" />
+      <workItem from="1598277741212" duration="54000" />
+      <workItem from="1599484451814" duration="1294000" />
+      <workItem from="1600086993425" duration="2369000" />
+      <workItem from="1600100062818" duration="4591000" />
+      <workItem from="1600346474470" duration="1642000" />
+      <workItem from="1600597248832" duration="2040000" />
+      <workItem from="1600599530386" duration="335000" />
+      <workItem from="1600689207258" duration="256000" />
+      <workItem from="1600774283534" duration="111000" />
+      <workItem from="1600774419938" duration="1779000" />
+      <workItem from="1600869541158" duration="3863000" />
+      <workItem from="1601107975413" duration="992000" />
+      <workItem from="1601108999990" duration="393000" />
+      <workItem from="1601109415875" duration="506000" />
+      <workItem from="1601109948741" duration="819000" />
+      <workItem from="1601110815960" duration="93000" />
+      <workItem from="1601110990848" duration="18000" />
+      <workItem from="1601111034090" duration="27000" />
+      <workItem from="1601111881773" duration="41000" />
+      <workItem from="1601113645104" duration="693000" />
+      <workItem from="1601114492678" duration="92000" />
+      <workItem from="1601114787103" duration="154000" />
+      <workItem from="1601114967411" duration="657000" />
+      <workItem from="1601297354704" duration="3314000" />
+      <workItem from="1601908031857" duration="2015000" />
+      <workItem from="1601967685314" duration="1190000" />
+      <workItem from="1601968930213" duration="58000" />
+      <workItem from="1602238381563" duration="1428000" />
+      <workItem from="1602241280246" duration="8037000" />
+      <workItem from="1602309159092" duration="7224000" />
+      <workItem from="1602409045858" duration="1595000" />
+      <workItem from="1602506139234" duration="1425000" />
+      <workItem from="1602763957213" duration="2780000" />
+      <workItem from="1603002052761" duration="2330000" />
+      <workItem from="1603010426816" duration="1396000" />
+      <workItem from="1603191984969" duration="5006000" />
+      <workItem from="1603245871396" duration="1494000" />
+      <workItem from="1603266612305" duration="9313000" />
+      <workItem from="1603364612404" duration="7877000" />
+      <workItem from="1603513822327" duration="1488000" />
+      <workItem from="1603640752804" duration="3761000" />
+      <workItem from="1603692744635" duration="3661000" />
+      <workItem from="1603709975347" duration="6907000" />
+      <workItem from="1603787170992" duration="7813000" />
+      <workItem from="1603869440826" duration="6888000" />
+      <workItem from="1603967925103" duration="3186000" />
+      <workItem from="1604029174240" duration="720000" />
+      <workItem from="1604315074221" duration="6663000" />
+      <workItem from="1604370343311" duration="1494000" />
+      <workItem from="1604393907523" duration="2302000" />
+      <workItem from="1604457950766" duration="1030000" />
+      <workItem from="1604473878075" duration="6749000" />
+      <workItem from="1605268113934" duration="2985000" />
+      <workItem from="1605271397315" duration="1067000" />
+      <workItem from="1606194935313" duration="3671000" />
+      <workItem from="1606238815213" duration="59000" />
+      <workItem from="1606392356629" duration="989000" />
+      <workItem from="1606571075254" duration="5643000" />
+      <workItem from="1606645655244" duration="3788000" />
+      <workItem from="1606726727007" duration="4732000" />
+      <workItem from="1606808860192" duration="1816000" />
+      <workItem from="1606813408284" duration="80000" />
+      <workItem from="1606813776575" duration="419000" />
+      <workItem from="1606814814727" duration="1357000" />
+      <workItem from="1606879122037" duration="2299000" />
+      <workItem from="1606920667871" duration="4001000" />
+      <workItem from="1607365375936" duration="93000" />
+      <workItem from="1607948758553" duration="26092000" />
+      <workItem from="1608011044025" duration="1403000" />
+      <workItem from="1608022722987" duration="598000" />
+      <workItem from="1608029489392" duration="8000" />
+      <workItem from="1608639169743" duration="47000" />
+      <workItem from="1611764434295" duration="251000" />
+      <workItem from="1611764720486" duration="2224000" />
+      <workItem from="1611827038207" duration="19000" />
+      <workItem from="1611854664135" duration="3769000" />
+      <workItem from="1612018606412" duration="6302000" />
+      <workItem from="1612080208226" duration="404000" />
+      <workItem from="1612107486940" duration="3664000" />
+      <workItem from="1612321739269" duration="1102000" />
+      <workItem from="1612365603096" duration="3684000" />
+      <workItem from="1612449065836" duration="5119000" />
+      <workItem from="1612510555213" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="482579000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.500625" side_tool="true" weight="0.39895698" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16452442" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32969153" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.499375" weight="0.39895698" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32985657" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32333767" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaSE入门/TestDemo0.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/JavaSE入门/TestDemo.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="119" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="10" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>10</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>黑棋</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/JavaSE入门/TestDemo4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2660">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_172/src.zip!/java/lang/String.java" />
+    <entry file="file://$PROJECT_DIR$/编程题/src/最长公共子串.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="127" lean-forward="true" selection-start-line="127" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_172/src.zip!/java/util/TreeSet.java" />
+    <entry file="file://$PROJECT_DIR$/编程题/src/寻找第k大.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编程题/src/水仙花数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaSE入门/TestDemo0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编程题/src/闰年.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaSE入门/TestDemo10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_172/src.zip!/java/util/ArrayList.java" />
+    <entry file="file://$PROJECT_DIR$/src/JavaSE入门/TestDemo8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/上机/src/二进制一的个数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaSE入门/TestDemo9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编程题/src/找到字符串的最长无重复子串.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编程题/src/回文数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编程题/src/二进制中1的个数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编程题/src/数组二分查找.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编程题/src/最小的k个数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaSE入门/TestDemo7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编程题/src/排号报数.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JavaSE入门/TestDemo6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646">
+          <caret line="120" column="36" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/周三Java课作业/实验8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/编程题/src/A加B.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/QQ下载/TestDemo1(1).java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="83" column="19" lean-forward="true" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/Test1/Thread1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/Test/TestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/Test1/TestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/守护线程/TestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="41" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/Test/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/Ticket/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/QQ下载/TestDemo2(1).java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="46" selection-start-line="46" selection-end-line="73" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/Ticket/TestDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/ABC100/Print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="65" column="6" selection-start-line="65" selection-start-column="6" selection-end-line="65" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/ABC100/DIYObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/ABC100/ABCThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/锁/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/生产者消费者模型/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/生产者消费者模型/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/生产者消费者模型/TestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/锁/FairTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/生产者消费者模型/Warehouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/QQ下载/ProducerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="60" lean-forward="true" selection-start-line="2" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/QQ下载/ConsumerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="56" lean-forward="true" selection-start-line="2" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/QQ下载/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="2" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/锁/TestDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/锁/TryLockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#364#523#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#564#687#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/锁/TestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/锁/TestDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/生产者消费者模型2/ConsumerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/生产者消费者模型2/ProducerDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="3" selection-end-line="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java多线程/src/生产者消费者模型2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>作业:Web exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Detection</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>作业</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
