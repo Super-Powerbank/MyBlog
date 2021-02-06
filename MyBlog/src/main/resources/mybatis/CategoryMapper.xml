@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tulun.blog.mapper.CategoryMapper">
+
+    <select id="selectAllCategorys" resultType="com.tulun.blog.model.Category">
+        select * from t_category
+    </select>
+
+    <select id="selectCategoryById" parameterType="long" resultType="com.tulun.blog.model.Category">
+        select * from t_category where id = #{id}
+    </select>
+
+</mapper>

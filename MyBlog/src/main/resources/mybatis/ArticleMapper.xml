@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+  
+<mapper namespace="com.tulun.blog.mapper.ArticleMapper">
+	
+	<resultMap type="com.tulun.blog.model.Article" id="Article">
+		<id column="id" property="id" />
+		<result column="categoryId" property="categoryId" />
+		<result column="categoryName" property="categoryName" />
+		<result column="aliasName" property="aliasName" />
+		<result column="title" property="title" />
+		<result column="author" property="author" />
+		<result column="statue" property="statue" />
+		<result column="showCount" property="showCount" />
+		<result column="content" property="content" typeHandler="com.tulun.blog.utils.ConvertBlobTypeHandler" />
+	</resultMap>
+
+
+    <select id="selectArticleById" parameterType="long" resultType="com.tulun.blog.model.Article">
+        select * from t_article where id = #{id}
+    </select>
+
+	
+	<insert id="addArticle" parameterType="com.tulun.blog.model.Article" >
+		<![CDATA[
+			insert into t_article 
+			(categoryId,title,content,createTime,showCount,statue,description,author)
+				values 
+			(#{categoryId},#{title},#{content},now(),0,0,#{description},#{author})
+		]]> 
+		<selectKey resultType="int" keyProperty="id">
+			<![CDATA[
+			SELECT LAST_INSERT_ID() as id 
+			]]> 
+		</selectKey>
+	</insert>
+
+
+
+    <insert id="addArticleTag" parameterType="com.tulun.blog.model.Article">
+        insert into t_article_tag (articleId, tagId) values (#{id},#{tagId})
+    </insert>
+
+    <update id="updateShowCount" parameterType="long">
+        update t_article set showCount = showCount+1 where id = #{id}
+    </update>
+
+    <!--mybatis的动态SQL概念-->
+    <select id="categoryArticle" parameterType="com.tulun.blog.model.Article" resultType="com.tulun.blog.model.Article">
+        select * from t_article
+        <where>
+            <if test="categoryId != null and categoryId != -1">
+              and  categoryId = #{categoryId}
+            </if>
+            <if test="true">
+                and statue = 0
+            </if>
+        </where>
+        order by  createTime desc
+    </select>
+
+    <select id="selectArticlePapeCount" parameterType="map" resultType="int">
+        select count(*)
+        from t_article ta
+        join t_category tc
+        on  ta.categoryId = tc.id
+        <where>
+            <if test="article.title != null">
+                and ta.title like concat('%', #{article.title}, '%')
+            </if>
+            <if test="article.categoryId != null and article.categoryId != 0">
+                and ta.categoryId = #{article.categoryId}
+            </if>
+            <if test="article.tagId != null and article.tagId != 0">
+                and exists (select 1 from t_article_tag tt where tt.articleId = ta.id and tt.tagId = #{article.tagId})
+            </if>
+
+        </where>
+    </select>
+
+
+    <!--<select id="selectArticlePape" parameterMap="map" resultType="com.tulun.blog.model.Article">-->
+    <select id="selectArticlePape" parameterType="map" resultType="com.tulun.blog.model.Article">
+        select ta.id,ta.categoryId,tc.categoryName,ta.title,ta.content,ta.author,DATE_FORMAT(ta.createTime,'%Y-%m-%d %H:%i:%s') as time,
+        ta.showCount,ta.statue
+        from t_article ta
+        join t_category tc
+        on  ta.categoryId = tc.id
+        <where>
+            <if test="article.title != null">
+                and ta.title like concat('%', #{article.title}, '%')
+            </if>
+            <if test="article.categoryId != null and article.categoryId != 0">
+                and ta.categoryId = #{article.categoryId}
+            </if>
+            <if test="article.tagId != null and article.tagId != 0">
+                and exists (select 1 from t_article_tag tt where tt.articleId = ta.id and tt.tagId = #{article.tagId})
+            </if>
+
+        </where>
+
+        order by ta.createTime desc
+        limit #{start},#{limit}
+
+    </select>
+
+    <update id="updateStatus" parameterType="com.tulun.blog.model.Article">
+        update t_article set statue = #{statue} where id = #{id}
+    </update>
+
+	
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">  
+  
+<mapper namespace="com.tulun.blog.mapper.ArticleTagMapper">
+
+    <!--
+    最终获取的是便签名称
+    需要拿两张表的信息来获取到：T_tag和t_article_tag
+    多表联合查询
+    -->
+    <select id="selectArticleTagByArticleId" parameterType="integer" resultType="com.tulun.blog.model.ArticleTag">
+        select ta.articleId,ta.tagId,tt.tagName
+        from  t_article_tag ta join t_tag tt on ta.tagId = tt.id
+        where ta.articleId = #{articleId}
+    </select>
+	
+
+	
+</mapper>
