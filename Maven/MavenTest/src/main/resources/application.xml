@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--根标签-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+              http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--基于无参构造实例化Bean-->
+    <bean id="person" class="com.tulun.JavaMaven.bean.Person"/>
+    <!--基于静态工厂方法实例化Beam-->
+    <bean id="person1" class="com.tulun.JavaMaven.factory.StaticFactory" factory-method="getPerson"/>
+    <!--基于普通工厂方法实例化Bean-->
+    <bean id="factor" class="com.tulun.JavaMaven.factory.CommonFactory"/>
+    <bean id="person2" factory-bean="factor" factory-method="getPerson"/>
+
+    <!--开启注解扫描: base-package(必填)指令包路径: 会扫描类方法、属性上是否有注解-->
+    <context:component-scan base-package="com.tulun.JavaMaven.bean"></context:component-scan>
+</beans>
