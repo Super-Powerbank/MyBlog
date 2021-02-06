@@ -1,0 +1,83 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <!--配置数据源：借助连接池c3p0-->
+
+    <bean id="datasource1" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+
+    <!--注入属性值-->
+    <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+    <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/test"/>
+    <property name="user" value="root"/>
+    <property name="password" value="123456"/>
+    </bean>
+    <!--<bean id="datasource1" class="com.alibaba.druid.pool.DruidDataSource">-->
+
+        <!--&lt;!&ndash;注入属性值&ndash;&gt;-->
+        <!--<property name="driverClassName" value="com.mysql.jdbc.Driver"/>-->
+        <!--<property name="url" value="jdbc:mysql://localhost:3306/test"/>-->
+        <!--<property name="username" value="root"/>-->
+        <!--<property name="password" value="123456"/>-->
+    <!--</bean>-->
+
+    <!--
+
+    创建SQLSessionFactory对象
+
+    sqlSessionFactory的类的全路径名是mybatis-spring包中提供的SqlSessionFactoryBean创建的
+
+    -->
+
+    <bean id="sqlSessionFactory" scope="singleton" class="org.mybatis.spring.SqlSessionFactoryBean">
+
+        <!--数据库的连接配置-->
+
+        <property name="dataSource" ref="datasource1"/>
+
+        <!--配置mybatis的XML文件的路径-->
+
+        <property name="configLocation" value="classpath:Spring-mybatis.xml"/>
+
+        <!--
+
+        配置xml文件的映射
+
+        在mybatis学习中，该配置时在<mapper>标签下添加的
+
+        -->
+        <property name="mapperLocations">
+            <list>
+                <value>mapper/Student23Mapper.xml</value>
+            </list>
+        </property>
+
+    </bean>
+
+    <!--
+    通过代理模式进行Mapper映射开发
+    MapperFactoryBean是mybatis-spring包提供的完成映射的类
+    -->
+    <bean id="student23Mapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+        <!--指定单个的mapper映射方式
+        mapperInterface属性：指定的是接口 value是接口的全路径
+        -->
+
+        <property name="mapperInterface" value="com.tulun.inteface.Student23Mapper"/>
+        <!--会话工厂-->
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+
+    </bean>
+
+    <!--Student23Service交给spring管理-->
+    <bean id="student23Service" class="com.tulun.service.StudentService">
+        <!--注入mapper到当前的Service-->
+        <constructor-arg name="student23Mapper" ref="student23Mapper"/>
+    </bean>
+
+
+</beans>

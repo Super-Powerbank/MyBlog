@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--读取配置文件信息：动态的替换配置-->
+    <properties >
+        <property name="user" value="root"/>
+        <property name="pasword" value="123456"/>
+    </properties>
+
+    <!--全局的参数配置-->
+    <settings>
+        <!--开启二级缓存-->
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+
+    <!--类型别名-->
+    <typeAliases>
+        <!--定义单个别名 type属性：pojo类的全限定名 alias：别名的名称-->
+        <typeAlias type="com.tulun.pojo.Student23" alias="student23"/>
+
+        <!--批量的别名配置 name:指定包名，将包下的所有的pojo类定义别名,别名为类名(首字母大写小写都可以)-->
+        <package name="com.tulun.pojo"/>
+    </typeAliases>
+    <!--配置数据源：必须-->
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/test"/>
+                <property name="username" value="${user}"/>
+                <property name="password" value="${pasword}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--引入映射文件-->
+    <mappers>
+        <mapper resource="mapper/Student23Mapper.xml"/>
+    </mappers>
+</configuration>

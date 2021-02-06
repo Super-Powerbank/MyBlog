@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--mapper：根标签，namespace：命名空间，接口文件的全路径-->
+<mapper namespace="com.tulun.inteface.Student23Mapper">
+
+
+
+    <select id="selectStudent" parameterType="student23" resultType="com.tulun.pojo.Student23">
+        select * from Student where 1=1
+        <if test="SID != null and SID != 0">
+            and SID = #{SID}
+        </if>
+        <if test="Sage != null">
+            and Sage = #{Sage}
+        </if>
+    </select>
+
+    <!-- 通过id查询学生信息-->
+    <!--<select id="selectStudentByUid" parameterType="long" resultType="com.tulun.pojo.Student23">-->
+        <!--select * from Student where SID = #{uid}-->
+    <!--</select>-->
+    <!---->
+    <!--<select id="selectStudentByName" parameterType="string" resultType="com.tulun.pojo.Student23">-->
+        <!--select * from Student where Sname like #{name}-->
+    <!--</select>-->
+
+    <!--<insert id="insertStudent" parameterType="com.tulun.pojo.Student23">-->
+        <!--insert into Student(SID,Sname,Ssex,Sage) values (#{SID},#{Sname},#{Ssex},#{Sage})-->
+    <!--</insert>-->
+
+    <!--<update id="updateStudent" parameterType="com.tulun.pojo.Student23">-->
+        <!--update Student-->
+        <!--set-->
+        <!--Sname = #{Sname},Sage = #{Sage}-->
+        <!--where SID = #{SID}-->
+    <!--</update>-->
+
+    <!--<update id="updateStudent1" >-->
+        <!--update Student-->
+        <!--set Sname = #{Sname}-->
+        <!--where SID = #{SID}-->
+    <!--</update>-->
+
+    <!--selectAllStudent-->
+    <!--<select id="selectAllStudent" resultType="com.tulun.pojo.Student23">-->
+        <!--select * from Student-->
+    <!--</select>-->
+</mapper>
